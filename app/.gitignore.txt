@@ -10,8 +10,7 @@ db.sqlite3
 db.sqlite3-journal
 media
 staticfiles
-.idea
-db.sqlite3
+*.idea
 **/migrations/*
 !**/migrations/__init__.py
 app/app/settings.py

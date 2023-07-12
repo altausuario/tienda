@@ -1,0 +1,25 @@
+.contacto {
+    position: fixed;
+    top: 50%;
+    left: 13px;
+    transform: translate(0, -50%);
+    z-index: 5000;
+}
+
+.contacto img {
+    width: 40px;
+    max-width: 40px;
+}
+
+.contacto img:hover {
+    transform: scale(1.2)
+}
+
+.img_principal {
+    width: 100%;
+    height: 600px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAACACAMAAAB3JKjCAAAAElBMVEV/f32AgH6Jioh9fXqAgXx+fn4uIsv3AAAA+UlEQVR4nO3cwXbCIBAFULD0/3/ZE9tjbTM0YCzBeu9CI4cMj7hhM0mn55Penk86Wv7m6DSNZB5D5jFkHkPmMWTeH6Rj6uGZc7N5zhvtmX9u4V9kHrYxmcdkvjv2sZnv20rTfQPjrtae4BE2mThzdfV5M28kk/mFMwMAf6aU1VAuJRpN69PAMjM8I+TK9c2P8L642m/V+yfWTjWVnJurtWUGAAAAAAAAAAAAAAAA5hd1C+Wyv9O62vxfuSg3n1uCbrBU6/zqEJVd5PWMy/d7ufRuta0b1Y7a2jrVKnwNX//Kj6HPp70jc3O2nrKLoBfvMa1s3hsAwIs4A1EVB8RQ6/jzAAAAAElFTkSuQmCC");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)); */
+}
